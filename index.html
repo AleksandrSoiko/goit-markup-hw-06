@@ -694,11 +694,15 @@
               ></textarea>
             </label>
           </div>
-          <label class="feedback-checkbox">
-            <input type="checkbox" />
+          <label class="feedback-checkbox-field">
+            <input class="feedback-checkbox" type="checkbox"  name="policy-check"/>
+            <svg class="feedback-checkbox-icon" width="16" height="15">
+              <use class="icon-checked" href="./images/symbol-defs.svg#icon-checked"></use>
+              <use class="icon-unchecked" href="./images/symbol-defs.svg#icon-unchecked"></use>
+            </svg>
             <span class="feedback-checkbox-text">
               Погоджуюся з розсилкою та приймаю
-              <a href="">Умови договору</a></span
+              <a class="feedback-link" href="">Умови договору</a></span
             >
           </label>
           <button class="feedback-btn" type="submit">Відправити</button>
