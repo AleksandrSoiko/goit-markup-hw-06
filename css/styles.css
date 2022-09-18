@@ -594,11 +594,14 @@ ul {
   margin-bottom: 20px;
 }
 
+.footer-form-field {
+ display: inline-block;
+}
+
 .footer-form-input {
   width: 358px;
   height: 50px;
   padding: 15px 16px;
-  margin-right: 12px;
 
   color: var(--light-txt-color);
   outline: none;
@@ -613,9 +616,10 @@ ul {
   align-items: center;
   justify-content: center;
   width: 200px;
+  gap: 10px;
+  margin-left: 12px;
 
   padding: 10px 28px;
-  margin-right: 10px;
   background-color: var(--blue-btn-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -634,15 +638,6 @@ ul {
   background-color: #165f9a;
 }
 
-.footer-form-btn::after {
-  content: "";
-  display: inline-block;
-  margin-left: 10px;
-  width: 24px;
-  height: 24px;
-
-  background-image: url(../images/icon-send.svg);
-}
 
 .footer-form-input::placeholder {
   letter-spacing: 0.03em;
